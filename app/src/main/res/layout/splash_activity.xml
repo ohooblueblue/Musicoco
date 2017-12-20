@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/splash_container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout android:id="@+id/splash_container"
+                                             xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:background="@color/colorPrimary">
 
     <TextView
         android:id="@+id/splash_m"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
         android:padding="2dp"
         android:text="M"
         android:textColor="@color/white"
@@ -19,15 +18,13 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/splash_u"
         app:layout_constraintRight_toLeftOf="@+id/splash_u"
-        app:layout_constraintTop_toTopOf="@+id/splash_u" />
+        app:layout_constraintTop_toTopOf="@+id/splash_u"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_u"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
         android:padding="2dp"
         android:text="u"
         android:textColor="@color/white"
@@ -35,14 +32,13 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/splash_s"
         app:layout_constraintRight_toLeftOf="@+id/splash_s"
-        app:layout_constraintTop_toTopOf="@+id/splash_s" />
+        app:layout_constraintTop_toTopOf="@+id/splash_s"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_s"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginTop="0dp"
         android:padding="2dp"
         android:text="s"
         android:textColor="@color/white"
@@ -51,13 +47,13 @@
         app:layout_constraintBottom_toBottomOf="@+id/splash_i"
         app:layout_constraintRight_toLeftOf="@+id/splash_i"
         app:layout_constraintTop_toTopOf="@+id/splash_i"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_i"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
         android:padding="2dp"
         android:text="i"
         android:textColor="@color/white"
@@ -66,15 +62,13 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline20"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
         android:padding="2dp"
         android:text="c"
         android:textColor="@color/white"
@@ -83,15 +77,13 @@
         app:layout_constraintBottom_toBottomOf="@+id/splash_i"
         app:layout_constraintLeft_toRightOf="@+id/splash_i"
         app:layout_constraintTop_toTopOf="@+id/splash_i"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_o"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
         android:padding="2dp"
         android:text="o"
         android:textColor="@color/white"
@@ -99,15 +91,13 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/splash_c"
         app:layout_constraintLeft_toRightOf="@+id/splash_c"
-        app:layout_constraintTop_toTopOf="@+id/splash_c" />
+        app:layout_constraintTop_toTopOf="@+id/splash_c"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_c1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
         android:padding="2dp"
         android:text="c"
         android:textColor="@color/white"
@@ -115,15 +105,13 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/splash_o"
         app:layout_constraintLeft_toRightOf="@+id/splash_o"
-        app:layout_constraintTop_toTopOf="@+id/splash_o" />
+        app:layout_constraintTop_toTopOf="@+id/splash_o"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_o1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
         android:padding="2dp"
         android:text="o"
         android:textColor="@color/white"
@@ -131,7 +119,8 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/splash_c1"
         app:layout_constraintLeft_toRightOf="@+id/splash_c1"
-        app:layout_constraintTop_toTopOf="@+id/splash_c1" />
+        app:layout_constraintTop_toTopOf="@+id/splash_c1"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/splash_name"
@@ -146,32 +135,33 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:visibility="visible"/>
 
     <ImageView
         android:id="@+id/splash_logo"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginBottom="0dp"
         android:src="@drawable/logo_clean"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/splash_i"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:visibility="visible"/>
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.5"/>
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.61" />
+        app:layout_constraintGuide_percent="0.61"/>
 
 </android.support.constraint.ConstraintLayout>
