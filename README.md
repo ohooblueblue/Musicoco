@@ -1,5 +1,5 @@
 
-意见反馈SDK说明
+意见反馈 SDK 说明
 ==========================
 
 ## 修改记录
@@ -10,15 +10,15 @@ v1.0.0  |   2017-12-26  |   庄冬冬  |   创建文档
 
 
 # 目录
-[1 功能描述](#功能描述)
-[2 集成流程](#集成流程)
-&nbsp;&nbsp;&nbsp;&nbsp;[2.1 前期准备](#前期准备)
-&nbsp;&nbsp;&nbsp;&nbsp;[2.2 导入aar](#导入aar)
-&nbsp;&nbsp;&nbsp;&nbsp;[2.3 配置 AndroidManifest.xml 文件](#%E9%85%8D%E7%BD%AEandroidmanifestxml%E6%96%87%E4%BB%B6) 
-[3 接入流程](#接入流程)  
-&nbsp;&nbsp;&nbsp;&nbsp;[3.1 初始化](#初始化)
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2 打开意见反馈页面](#打开意见反馈页面)
-&nbsp;&nbsp;&nbsp;&nbsp;[3.3 请求是否有新回复](#请求是否有新回复)
+[1 功能描述](#功能描述)    
+[2 集成流程](#集成流程)    
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1 前期准备](#前期准备)    
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2 导入aar](#导入aar)    
+&nbsp;&nbsp;&nbsp;&nbsp;[2.3 配置 AndroidManifest.xml     文件](#%E9%85%8D%E7%BD%AEandroidmanifestxml%E6%96%87%E4%BB%B6)     
+[3 接入流程](#接入流程)     
+&nbsp;&nbsp;&nbsp;&nbsp;[3.1 初始化](#初始化)  
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2 打开意见反馈页面](#打开意见反馈页面)     
+&nbsp;&nbsp;&nbsp;&nbsp;[3.3 请求是否有新回复](#请求是否有新回复)      
 
 
 ## 功能描述
