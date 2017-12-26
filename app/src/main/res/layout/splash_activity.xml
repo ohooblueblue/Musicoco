@@ -77,7 +77,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/splash_i"
         app:layout_constraintLeft_toRightOf="@+id/splash_i"
         app:layout_constraintTop_toTopOf="@+id/splash_i"
-        app:layout_constraintVertical_bias="0.0"
         tools:visibility="visible"/>
 
     <TextView
@@ -145,7 +144,6 @@
         android:src="@drawable/logo_clean"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/splash_i"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:visibility="visible"/>
